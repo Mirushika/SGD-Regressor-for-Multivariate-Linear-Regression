@@ -21,6 +21,7 @@ Developed by: mirushika.t
 RegisterNumber:  24901203
 */
 ```
+```
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
@@ -47,7 +48,8 @@ y_test = scaler_y.inverse_transform(y_test)
 print(y_pred)
 mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)
-print("\nPredictions:\n",y_pred[:5])
+print("\nPredictions:\n",y_pred[:5]) ```
+
 ## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 
