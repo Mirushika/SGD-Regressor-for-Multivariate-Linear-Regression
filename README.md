@@ -49,7 +49,7 @@ print(y_pred)
 mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)
 print("\nPredictions:\n",y_pred[:5]) ```
-
+```
 ## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 
